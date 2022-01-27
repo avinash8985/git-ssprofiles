@@ -1,0 +1,509 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+
+    
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+     /* background-color:transparent;  */
+}
+.header{
+    width: 100rem;
+    height: 8rem;
+    
+    
+}
+.nav-fill{
+    display: flex;
+    gap: 5.8rem;
+    margin-left: 30rem;
+
+}
+
+ /* .home-nav{
+    border: 1px solid white;
+    border-radius: 17%;
+    background-color: #1089b1; 
+}  */
+.home-nav:hover{
+    background-color: transparent !important;
+    color: tomato;
+}
+
+.container1{
+    background-color:rgb(77, 72, 72);
+}
+
+.img-logo{
+    width: 12%;
+    margin-left: 5rem;
+    margin-top: -2rem;
+}
+  
+
+.start{
+    height: 6rem;
+}
+.justify-content-end .nav-item{
+    padding: 2.5rem;
+    margin-top: 2rem;
+}
+.srvices{
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(49, 191, 238);
+    color: white;
+    padding: 0.3rem;
+
+}
+
+.main{
+    background-image: url("../Media/1.jpg");
+    /* background-size: contain; */
+    height: 46rem;
+    width: 100rem;
+}
+.text{
+    text-align: center;
+    padding-top: 10rem;
+}
+.welcome{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: oblique;
+
+}
+.man{
+    color: rgb(74, 204, 255);;
+    padding-top: 3rem;
+    font-size: 89px;
+    font-style:oblique ;
+}
+
+.request{
+    color: white;
+    font-size: 40px;
+    padding-top: 2rem;
+    font-style: oblique;
+}
+
+.read{
+   padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:rgb(51, 196, 245);
+    margin-right: rem;
+}
+
+
+.get{
+    padding: 0.5rem;
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+     font-weight: 700;
+     background-color:whitesmoke;
+     margin-left: 6rem;
+ }
+ .reget{
+     margin-top: 5rem;
+     font-style: oblique;
+ }
+/* .button-read{
+    border: none;
+    width: 7rem;
+    height: 2rem;
+    background-color: rgb(74, 204, 255);;
+    color: white;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    font-weight: 800;
+    
+    
+
+}
+.started{
+    border: none;
+    width: 7rem;
+    height: 2rem;
+    font-weight: 700;
+    color:black;
+    border-radius: 0.5rem;
+    margin-left: 6rem;
+    margin-top: 7rem;
+
+} */
+.container{
+    width: 100rem;
+    margin-left: 11rem;
+}
+.about{
+    font-size: 16px;
+    padding-top: 2rem;
+    
+}
+.story{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.matter{
+    font-size: 18px;
+    
+}
+.icon{
+   
+    padding: 0.5rem;
+}
+.boxes{
+    display: flex;
+    margin-top: 12rem;
+    gap: 3rem;
+    
+}
+.safety{
+    width: 7rem;
+    height: 7rem;
+    background-color:rgb(41, 175, 219) ;
+    padding: 2rem;
+}
+.safe{
+    margin-top: -2rem;
+    margin-left: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.security{
+    padding: 2rem;
+    width: 7rem;
+    height: 7rem;
+    background-color:rgb(36, 173, 219);
+}
+.secure{
+   margin-top: -2rem;
+   margin-left: 2rem;
+   font-weight: 600;
+   color: white;
+   
+}
+
+.sustain{
+   margin-top: -2rem;
+   margin-left: 0.3rem;
+   font-weight: 600;
+   color: white;
+}
+.sustainability{
+    padding: 2rem;
+    width: 7rem;
+    height: 7rem;
+    background-color:rgb(34, 178, 226) ;
+}
+.integ{
+
+margin-top: -2rem;
+margin-left: 2rem;
+font-weight: 600;
+color: white;
+}
+
+.integrity{
+    padding: 2rem;
+    width: 7rem;
+    height: 7rem;
+    background-color:rgb(30, 168, 214);
+}
+  .table>:not(:first-child) {
+     border:transparent !important;
+}  
+.table{
+    margin-left:12rem;
+    width: 20rem;
+    height: 36rem;
+   background-color:rgb(34, 179, 228);
+   margin-top: 2rem; 
+}
+.col{
+    width: 100%;
+    height: 40%;
+}
+.submit{
+    background-color:lightsalmon;
+    margin-left: 5rem;
+    border:1px solid orange;
+    border-radius: 0.5rem;
+    
+    padding: 0.6rem;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.ask{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 1rem;
+}
+.requet{
+    text-align: -webkit-center;
+    font-size: 30px;
+    padding-top: 2rem;
+    /* color: white; */
+}
+    
+
+.form-name{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 20rem;
+}
+.form-email{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 20rem;
+}.form-phone{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 20rem;
+}
+.form-details{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 20rem;
+}
+.our-services{
+    background-color:rgb(230, 228, 228);
+    margin-top: 2rem;
+    width: 100rem;
+    margin-left: 7rem;
+   
+}
+
+.our-main{
+    text-align: center;
+    padding-top: 3rem;
+    font-size: xxx-large;
+    font-weight: 700;
+}
+.our-text{
+    text-align: center;
+    font-size: 21px;
+    padding-top: 2rem;
+}
+.man-power{
+    margin-left: 21rem;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+}
+.manp{
+    border: 1px solid;
+    width: 37%;
+    background-color: #52ccf3;
+    color: black;
+    border-radius: 7%;
+    margin-right: 2rem;
+    font-weight: 500;
+}
+.dropdown-menu{
+    background-color: rgb(25, 173, 223);
+
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color:rgb(32, 188, 240);
+    border-color: #0e88e6;
+    
+}
+.Interior-designing{
+    padding-top: 2rem;
+}
+.interior{
+    border: 1px solid;
+    width: 38%;
+    background-color: #52ccf3;
+    color: black;
+    border-radius: 7%;
+    margin-left: 2rem; 
+    font-weight: 500;
+}
+.projects{
+    background-color: white;
+    position: relative;
+}
+.slider-card{
+    background-color: white;
+    padding: 0rem;
+    margin-top: 4rem;
+}
+/* .project-btn{
+    background-color: blue;
+    float: right;
+    border: none;
+    border-radius: 0.4rem;
+    margin: 0.5rem 1rem;
+}
+.project-btn-main,.project-btn-main2{
+    
+    margin-top: -3rem;
+    margin-left: 20rem;
+    position: absolute;
+    background-color: blue;
+    border: none;
+    border-radius: 0.4rem;
+} */
+
+.project-para{
+    padding: 1rem;
+}
+.slider{
+    height: 30rem;
+    padding-top: 3rem;
+    
+    
+}
+.container2{
+    margin-left: 5rem;
+    background-color: rgb(20, 191, 248);
+    margin-left: 3rem;
+    width: 100rem;
+}
+
+
+
+
+.images{
+    width: 100%;
+    height: 90%;
+    
+}
+
+
+.testimonial{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration-line: underline;
+    color: coral;
+    width: 100rem;
+}
+.card-box{
+    display: flex;
+    padding-top: 5rem;
+    padding-left: 10rem;
+    height: 38rem;
+    gap: 2rem;
+}
+
+.img-1{
+    width: 25rem;
+    padding-right: 2rem;
+    height: 20.7rem;
+}
+
+.img-2{
+    width: 25rem;
+    padding-right: 2rem;
+    height: 20.7rem;
+}
+.img-3{
+    width: 25rem;
+    padding-right: 2rem;
+    height: 20.7rem;
+}
+.photo-card{
+    height: 28rem;
+}
+.footer{
+    background-color: rgb(25, 174, 233);
+    margin-top: 20rem;
+    width: 100rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    
+}
+h5{
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: oblique;
+    margin-top: 1rem;
+    
+}
+.addres{
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+    font-style: oblique;
+    margin-top: 2rem;
+
+}
+.input-field{
+    display: flex;
+    
+}
+.Subscribe{
+    padding-top: 2rem;
+    padding-top: 2rem;
+    font-size: inherit;
+    font-weight: bolder;
+    color: white;
+}
+.join{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    background-color:brown;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    
+    
+}
+.social{
+    margin-left: 21rem;
+    margin-top: 5rem;
+    color: white;
+    font-size: 17px;
+}
+.icon1{
+    color:navi rgb(19, 4, 32);
+    font-size: 30px;
+}
+.icon2{
+    color:green;
+    font-size: 30px;
+    margin-left: 2rem;
+}
+.icon3{
+    color:rgb(82, 6, 41);
+    font-size: 30px;
+    margin-left: 2rem;
+}
+.icon4{
+    color:rgb(3, 60, 80);
+    font-size: 30px;
+    margin-left: 2rem;
+}
+.icon5{
+    color:red;
+    font-size: 30px;
+    margin-left: 2rem;
+}
+.copy{
+    font-size: 18px;
+    margin-top: 2rem;
+    font-weight: 800;
+    margin-right:13rem;
+}
